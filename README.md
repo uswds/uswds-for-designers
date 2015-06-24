@@ -4,6 +4,10 @@ This is the repo for the Government Wide Pattern Library asset files. The purpos
 of this repository is to create open source design files based on the components
 created in the main Government Wide Pattern Library project [https://github.com/18F/govt-wide-patternlibrary](https://github.com/18F/govt-wide-patternlibrary).
 
+For the initial alpha release, included are font files and an editable .ai and .eps file, as well as a .png for each of pattern on the site. In future releases, we will work to include .psd and Sketch files to support broader software usage. 
+
+We encourage and solicity your feedback on the design of these assets. Please leave any comments in the project's primary repo: https://github.com/18F/govt-wide-patternlibrary/issues
+
 ### Public domain
 
 This project is in the worldwide [public domain](LICENSE.md). As stated in [CONTRIBUTING](CONTRIBUTING.md):
