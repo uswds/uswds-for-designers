@@ -6,7 +6,7 @@ created in the main Government Wide Pattern Library project [https://github.com/
 
 For the initial alpha release, included are font files and an editable .ai and .eps file, as well as a .png for each of pattern on the site. In future releases, we will work to include .psd and Sketch files to support broader software usage. 
 
-We encourage and solicity your feedback on the design of these assets. Please leave any comments in the project's primary repo: https://github.com/18F/govt-wide-patternlibrary/issues
+We encourage and solicit your feedback. Please leave any comments in the project's primary repo: https://github.com/18F/govt-wide-patternlibrary/issues
 
 ### Public domain
 
