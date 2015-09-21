@@ -1,6 +1,6 @@
 # U.S. Web Design Standards Assets
 
-This is the repo for the Government Wide Pattern Library asset files. The purpose
+This is the repo for the U.S. Web Design Standards asset files. The purpose
 of this repository is to create open source design files based on the components
 created in the main Government Wide Pattern Library project [https://github.com/18F/govt-wide-patternlibrary](https://github.com/18F/govt-wide-patternlibrary).
 
