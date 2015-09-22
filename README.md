@@ -1,12 +1,16 @@
-# U.S. Web Design Standards Assets
+# U.S. Web Design Standards Design Assets
 
-This is the repo for the U.S. Web Design Standards asset files. The purpose
-of this repository is to create open source design files based on the components
-created in the main Government Wide Pattern Library project [https://github.com/18F/govt-wide-patternlibrary](https://github.com/18F/govt-wide-patternlibrary).
+This repository hosts editable, open source design files of the [U.S. Web Design Standards] (https://playbook.cio.gov/designstandards) for government designers or anyone wishing to make use of the UI components or visual style guide in this site.
 
-For the initial alpha release, included are font files and an editable .ai and .eps file, as well as a .png for each of pattern on the site. In future releases, we will work to include .psd and Sketch files to support broader software usage. 
+For the alpha release, the following file types are available for your use:
+- .AI (Adobe Illustrator) 
+- .EPS files
+- Font files (Fontawesome, Merriweather, Source Sans Pro)
+- Color Swatches
+We encourage and solicit your input. Please leave any feedback in the project's primary repo here: https://github.com/18F/web-design-standards
 
-We encourage and solicit your feedback. Please leave any comments in the project's primary repo: https://github.com/18F/govt-wide-patternlibrary/issues
+### Fonts
+All fonts used in this design system are free, open source typefaces available on [Google Web Fonts] (https://www.google.com/fonts#UsePlace:use/Collection:Source+Sans+Pro:400,300,400italic,700,700italic|Merriweather:400,300,400italic,700,700italic), licensed under the [SIL Open Font License] (http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL).
 
 ### Public domain
 
