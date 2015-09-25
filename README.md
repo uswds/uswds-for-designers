@@ -12,6 +12,8 @@ We encourage and solicit your input. Please leave any feedback in the project's 
 ### Fonts
 All fonts used in this design system are free, open source typefaces available on [Google Web Fonts] (https://www.google.com/fonts#UsePlace:use/Collection:Source+Sans+Pro:400,300,400italic,700,700italic|Merriweather:400,300,400italic,700,700italic), licensed under the [SIL Open Font License] (http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL).
 
+Icons used in this design system are from [Font Awesome](http://fontawesome.io/) by Dave Gandy. They are under the [SIL Open Font License 1.1](http://scripts.sil.org/cms/scripts/page.php?item_id=OFL).
+
 ### Public domain
 
 This project is in the worldwide [public domain](LICENSE.md). As stated in [CONTRIBUTING](CONTRIBUTING.md):
