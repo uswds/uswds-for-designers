@@ -1,16 +1,29 @@
-# U.S. Web Design Standards Assets
+# U.S. Web Design Standards Design Assets
 
-This is the repo for the U.S. Web Design Standards asset files. The purpose
-of this repository is to create open source design files based on the components
-created in the main Government Wide Pattern Library project [https://github.com/18F/govt-wide-patternlibrary](https://github.com/18F/govt-wide-patternlibrary).
+This repository hosts editable, open source design files of the [U.S. Web Design Standards](https://playbook.cio.gov/designstandards) for government designers or anyone wishing to make use of the UI components or visual style guide in this site.
 
-For the initial alpha release, included are font files and an editable .ai and .eps file, as well as a .png for each of pattern on the site. In future releases, we will work to include .psd and Sketch files to support broader software usage. 
+For the alpha release, the following file types are available for your use:
+- .AI (Adobe Illustrator) 
+- .EPS files
+- Font files (Fontawesome, Merriweather, Source Sans Pro)
+- Color Swatches
+We encourage and solicit your input. Please leave any feedback in the project's primary repo here: https://github.com/18F/web-design-standards
 
-We encourage and solicit your feedback. Please leave any comments in the project's primary repo: https://github.com/18F/govt-wide-patternlibrary/issues
+## Licenses and attribution
 
-### Public domain
+### A few parts of this project are not in the public domain
 
-This project is in the worldwide [public domain](LICENSE.md). As stated in [CONTRIBUTING](CONTRIBUTING.md):
+The files in `Fonts and pairings/Merriweather.zip` and `Fonts and pairings/Source_Sans_Pro.zip` are from [Google Web Fonts](https://www.google.com/fonts#UsePlace:use/Collection:Source+Sans+Pro:400,300,400italic,700,700italic|Merriweather:400,300,400italic,700,700italic), licensed under the [SIL Open Font License](http://scripts.sil.org/cms/scripts/page.php?item_id=OFL).
+
+* The Source Sans Pro fonts are copyright 2010, 2012 [Adobe Systems Incorporated](http://www.adobe.com/), with Reserved Font Name 'Source'. All Rights Reserved. Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries.
+
+* The Merriweather fonts are copyright © 2010-2013, [Sorkin Type Co](www.sorkintype.com) with Reserved Font Name 'Merriweather'.
+
+The files in `Fonts and pairings/Font_Awesome.zip` are from [Font Awesome](http://fontawesome.io/) by Dave Gandy under the [SIL Open Font License 1.1](http://scripts.sil.org/OFL).
+
+### The rest of this project is in the public domain
+
+The rest of this project is in the worldwide [public domain](LICENSE.md).
 
 > This project is in the public domain within the United States, and copyright and related rights in the work worldwide are waived through the [CC0 1.0 Universal public domain dedication](https://creativecommons.org/publicdomain/zero/1.0/).
 >
