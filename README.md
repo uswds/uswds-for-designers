@@ -5,9 +5,23 @@ This repository hosts editable, open source design files of the [U.S. Web Design
 For the alpha release, the following file types are available for your use:
 - .AI (Adobe Illustrator) 
 - .EPS files
+- Sketch files
 - Font files (Fontawesome, Merriweather, Source Sans Pro)
 - Color Swatches
 We encourage and solicit your input. Please leave any feedback in the project's primary repo here: https://github.com/18F/web-design-standards
+
+## About the Sketch files
+
+Some single-function components, such as buttons, have been turned into symbols for easy access from the
+symbol menu. Before you alter anything but text, detach the instance of the symbol so that you don’t change
+every instance. More complex components, such as footers, have been left as groups.
+
+Wherever appropriate, we have created type styles and layer styles to make these components moree easily
+adapted.
+
+Style and symbol names are a compromise between US Web Design Standards CSS naming conventions (to
+transition Sketch files more easily into development) and names that make sense for when thinking about
+screen design. 
 
 ## Licenses and attribution
 
