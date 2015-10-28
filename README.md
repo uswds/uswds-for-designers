@@ -4,10 +4,12 @@ This repository hosts editable, open source design files of the [U.S. Web Design
 
 For the alpha release, the following file types are available for your use:
 - .AI (Adobe Illustrator) 
-- .EPS files
-- Sketch files
+- .EPS 
+- Sketch 
+- Omnigraffle
 - Font files (Fontawesome, Merriweather, Source Sans Pro)
 - Color Swatches
+
 We encourage and solicit your input. Please leave any feedback in the project's primary repo here: https://github.com/18F/web-design-standards
 
 ## About the Sketch files
