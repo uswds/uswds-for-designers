@@ -21,7 +21,7 @@ every instance. More complex components, such as footers, have been left as grou
 Wherever appropriate, we have created type styles and layer styles to make these components more easily
 adapted.
 
-Style and symbol names are a compromise between US Web Design Standards CSS naming conventions (to
+Style and symbol names are a compromise between U.S. Web Design Standards CSS naming conventions (to
 transition Sketch files more easily into development) and names that make sense for when thinking about
 screen design. 
 
