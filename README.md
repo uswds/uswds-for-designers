@@ -18,7 +18,7 @@ Some single-function components, such as buttons, have been turned into symbols 
 symbol menu. Before you alter anything but text, detach the instance of the symbol so that you don’t change
 every instance. More complex components, such as footers, have been left as groups.
 
-Wherever appropriate, we have created type styles and layer styles to make these components moree easily
+Wherever appropriate, we have created type styles and layer styles to make these components more easily
 adapted.
 
 Style and symbol names are a compromise between US Web Design Standards CSS naming conventions (to
