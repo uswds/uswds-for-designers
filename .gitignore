@@ -1,1 +1,11 @@
 .DS_store
+.*.swp
+
+# Ignore directories and files related to distribution
+uswds-assets-*/
+uswds-assets-*.zip
+
+# Ignore Node specific files and directories
+#
+node_modules/
+npm-debug.log
