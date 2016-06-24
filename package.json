@@ -4,6 +4,7 @@
   "description": "Draft U.S. Web Design Standards visual design assets",
   "main": "gulpfile.js",
   "scripts": {
+    "postinstall": "gulp",
     "release": "gulp release",
     "test": "gulp test:extensions"
   },
