@@ -1,0 +1,14 @@
+machine:
+  node:
+    version: 5.8.0
+
+test:
+  override:
+    - npm test
+
+deployment:
+  master:
+    branch: master
+    commands:
+      - npm run release
+      - ls -oflag uswds-assets*
