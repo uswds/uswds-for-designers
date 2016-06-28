@@ -10,7 +10,23 @@ For the alpha release, the following file types are available for your use:
 - Font files (Fontawesome, Merriweather, Source Sans Pro)
 - Color Swatches
 
-We encourage and solicit your input. Please leave any feedback in the project's primary repo here: https://github.com/18F/web-design-standards
+We encourage and solicit your input. Please leave any feedback in the project's primary repo, which you'll find here: https://github.com/18F/web-design-standards
+
+## Installing the color palettes
+
+Installing the color palettes to Sketch and Illustrator is pretty straightforward. Follow the steps below, and let us know if you run into any difficulty.
+
+### For Sketch
+
+* Begin by adding the Sketch palette plugin, which you can find [here] (https://github.com/andrewfiorillo/sketch-palettes).
+* Then, from the color picker, select Load Palette... from either the Global Colors or the Document Colors menu. **Please note** that doing this will replace whatever colors are currently in the selected section. If you’re concerned about losing your Global Colors, consider adding our palette to only your Document Colors menu. 
+* Navigate to WDS.sketchpalette — you should see the new palette there. 
+
+### For Illustrator
+
+* Begin by opening the Swatches panel.
+* In the Swatches menu, select Open Swatch Library and then Other Library.
+* Navigate to web-design-standards-colors.ase to add the palette.
 
 ## About the Sketch files
 
