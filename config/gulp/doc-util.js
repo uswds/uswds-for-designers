@@ -71,18 +71,15 @@ module.exports = {
   pkg: {
 
     name: pkg.name,
-    version: pkg.version,
 
   },
-
-  dirName: pkg.name + '-' + pkg.version,
 
   logIntroduction: function (message) {
 
     message = message || 'Draft U.S. Web Design Standards Assets';
 
     gutil.log(
-      gutil.colors.yellow('v' + pkg.version),
+      gutil.colors.yellow(pkg.name),
       message
     );
     drawFlag();
@@ -124,7 +121,7 @@ module.exports = {
       gutil.colors.red(name),
       gutil.colors.yellow(message)
     );
-    notify(this.dirName + ' gulp ' + name, message, true);
+    notify(pkg.name + ' gulp ' + name, message, true);
 
   },
 
@@ -134,7 +131,7 @@ module.exports = {
       gutil.colors.cyan(name),
       gutil.colors.green(message)
     );
-    notify(this.dirName + ' gulp ' + name, message, false);
+    notify(pkg.name + ' gulp ' + name, message, false);
 
   },
 

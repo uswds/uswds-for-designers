@@ -1,8 +1,8 @@
 {
   "name": "uswds-assets",
-  "version": "0.9.4",
   "description": "Draft U.S. Web Design Standards visual design assets",
   "main": "gulpfile.js",
+  "private": true,
   "scripts": {
     "postinstall": "gulp",
     "release": "gulp release",
