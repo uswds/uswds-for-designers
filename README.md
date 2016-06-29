@@ -3,9 +3,9 @@
 This repository hosts editable, open source design files of the [U.S. Web Design Standards](https://playbook.cio.gov/designstandards) for government designers or anyone wishing to make use of the UI components or visual style guide in this site.
 
 For the alpha release, the following file types are available for your use:
-- .AI (Adobe Illustrator) 
-- .EPS 
-- Sketch 
+- .AI (Adobe Illustrator)
+- .EPS
+- Sketch
 - Omnigraffle
 - Font files (Fontawesome, Merriweather, Source Sans Pro)
 - Color Swatches
@@ -23,7 +23,7 @@ adapted.
 
 Style and symbol names are a compromise between U.S. Web Design Standards CSS naming conventions (to
 transition Sketch files more easily into development) and names that make sense for when thinking about
-screen design. 
+screen design.
 
 ## Licenses and attribution
 
