@@ -5,6 +5,11 @@ var del = require('del');
 var runSequence = require('run-sequence');
 var merge = require('merge-stream');
 
+/*
+ * @name streamExtensions
+ * @description Supported file extensions for each release.
+ * @type {array} - An array of file extensions.
+ */
 var streamExtensions = [
   'omnigraffle',
   'eps',
@@ -12,6 +17,14 @@ var streamExtensions = [
   'sketch',
 ];
 
+/*
+ * @name createZipArchive
+ * @description Creates zip archives using {@link cross-spawn}.
+ * @param {string} taskName
+ * @param {string} src
+ * @param {string} dest
+ * @param {function} done
+ */
 function createZipArchive (taskName, src, dest, done) {
 
   var zip = spawn('zip', [
@@ -50,10 +63,21 @@ function createZipArchive (taskName, src, dest, done) {
 
 }
 
+/*
+ * @name getAssetDirectory
+ * @param {string} ext - A specific asset extension.
+ * @see {@link dutil.dirName}
+ * @return {string} - The extention with a suffix of the directory name.
+ */
 function getAssetDirectory (ext) {
   return dutil.dirName + '-' + ext;
 }
 
+/*
+ * @name clean:assets:directories
+ * @description Deletes generated asset directories from previous runs.
+ * @return {stream} - Deleted directories.
+ */
 gulp.task('clean:assets:directories', function () {
 
   dutil.logMessage('clean:assets:directories', 'Deleting temporary assets directories.');
@@ -65,6 +89,11 @@ gulp.task('clean:assets:directories', function () {
 
 });
 
+/*
+ * @name clean:assets:archives
+ * @description Deletes zip archives generated from previous runs.
+ * @return {stream} - Deleted zip archive files.
+ */
 gulp.task('clean:assets:archives', function () {
 
   dutil.logMessage('clean:assets:archives', 'Deleting assets zip archives.');
@@ -75,6 +104,11 @@ gulp.task('clean:assets:archives', function () {
 
 });
 
+/*
+ * @name release:process
+ * @description Converts source paths into gulp streams using {@link streamExtensions}.
+ * @return {stream} - Merged gulp stream.
+ */
 gulp.task('release:process', function () {
 
   dutil.logMessage('release:process', 'Process files for ' + dutil.dirName + ' design assets');
@@ -117,6 +151,12 @@ gulp.task('release:process', function () {
 
 });
 
+/*
+ * @name release:zip
+ * @description Iterates through {@link streamExtensions} and creates zip archives.
+ * @see {@link createZipArcive}
+ * @param {function} done - Callback to determin when task is complete
+ */
 gulp.task('release:zip', function (done) {
 
   dutil.logMessage('release', 'Creating zip archives for ' + dutil.dirName + ' design assets');
@@ -137,6 +177,14 @@ gulp.task('release:zip', function (done) {
 
 });
 
+/*
+ * @name release
+ * @see {@link clean:assets:archives}
+ * @see {@link clean:assets:directories}
+ * @see {@link release:process}
+ * @see {@link release:zip}
+ * @param {function} done - Callback to determin when task is complete
+ */
 gulp.task('release', function (done) {
   runSequence(
     'clean:assets:archives',
