@@ -66,11 +66,11 @@ function createZipArchive (taskName, src, dest, done) {
 /*
  * @name getAssetDirectory
  * @param {string} ext - A specific asset extension.
- * @see {@link dutil.dirName}
+ * @see {@link dutil.pkg.name}
  * @return {string} - The extention with a suffix of the directory name.
  */
 function getAssetDirectory (ext) {
-  return dutil.dirName + '-' + ext;
+  return dutil.pkg.name + '-' + ext;
 }
 
 /*
@@ -111,7 +111,7 @@ gulp.task('clean:assets:archives', function () {
  */
 gulp.task('release:process', function () {
 
-  dutil.logMessage('release:process', 'Process files for ' + dutil.dirName + ' design assets');
+  dutil.logMessage('release:process', 'Process files for ' + dutil.pkg.name + ' design assets');
 
   var files = streamExtensions.map(function (extension) {
     var source = [
@@ -159,7 +159,7 @@ gulp.task('release:process', function () {
  */
 gulp.task('release:zip', function (done) {
 
-  dutil.logMessage('release', 'Creating zip archives for ' + dutil.dirName + ' design assets');
+  dutil.logMessage('release', 'Creating zip archives for ' + dutil.pkg.name + ' design assets');
 
   streamExtensions.map(function (extension, idx) {
     createZipArchive(
