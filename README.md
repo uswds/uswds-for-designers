@@ -25,6 +25,36 @@ Style and symbol names are a compromise between U.S. Web Design Standards CSS na
 transition Sketch files more easily into development) and names that make sense for when thinking about
 screen design.
 
+## Generating archive files
+
+To help with the distribution of these assets, the project uses `npm run`
+scripts to generate four types of zip archives. These zip archives are used in
+the `uswds` documentation website.
+
+Generating these files requires `node`, `npm`, and the `zip` command-line tool.
+To get started, you need to install the dependencies for this project locally.
+
+```sh
+npm install
+```
+
+After the dependencies are installed, generate the four zip archives for each
+supported release based on file extension: `omnigraffle`, `eps`, `ai`, & `sketch`.
+
+```sh
+npm release
+```
+
+### Testing the current supported file extensions
+
+To ensure that all of the necessary files exist to generate a release, this
+project has some smoke tests. Running the following command will run the smoke
+tests to verify that all necessary files for a release are in the project.
+
+```sh
+npm test
+```
+
 ## Licenses and attribution
 
 ### A few parts of this project are not in the public domain
