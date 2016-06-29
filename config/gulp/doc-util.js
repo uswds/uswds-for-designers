@@ -61,7 +61,7 @@ function notify (title, message, wait) {
   notifier.notify({
     title: title,
     message: message,
-    icon: 'src/img/favicons/favicon-192.png',
+    icon: 'config/gulp/flag.png',
     wait: wait,
   });
 }
