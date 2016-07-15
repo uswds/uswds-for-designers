@@ -3,12 +3,12 @@
 This repository hosts editable, open source design files of the [U.S. Web Design Standards](https://playbook.cio.gov/designstandards) for government designers or anyone wishing to make use of the UI components or visual style guide in this site.
 
 For the alpha release, the following file types are available for your use:
-- .AI (Adobe Illustrator) 
-- .EPS 
-- Sketch 
+- .AI (Adobe Illustrator)
+- .EPS
+- Sketch
 - Omnigraffle
-- Font files (Fontawesome, Merriweather, Source Sans Pro)
-- Color Swatches
+- Font files (Fontawesome, Merriweather, and Source Sans Pro)
+- Color swatches
 
 We encourage and solicit your input. Please leave any feedback in the project's primary repo, which you'll find here: https://github.com/18F/web-design-standards
 
@@ -19,8 +19,8 @@ You have a few options for working with our color palette: You can either use th
 ### For Sketch
 
 * Begin by adding the Sketch palette plugin, which you can find [here] (https://github.com/andrewfiorillo/sketch-palettes).
-* Then, from the color picker, select Load Palette... from either the Global Colors or the Document Colors menu. **Please note** that doing this will replace whatever colors are currently in the selected section. If you’re concerned about losing your Global Colors, consider adding our palette to only your Document Colors menu. 
-* Navigate to WDS.sketchpalette to install the palette. 
+* Then, from the color picker, select Load Palette... from either the Global Colors or the Document Colors menu. **Please note** that doing this will replace whatever colors are currently in the selected section. If you’re concerned about losing your Global Colors, consider adding our palette to only your Document Colors menu.
+* Navigate to WDS.sketchpalette to install the palette.
 
 ### For Illustrator
 
@@ -31,15 +31,45 @@ You have a few options for working with our color palette: You can either use th
 ## About the Sketch files
 
 Some single-function components, such as buttons, have been turned into symbols for easy access from the
-symbol menu. Before you alter anything but text, detach the instance of the symbol so that you don’t change
-every instance. More complex components, such as footers, have been left as groups.
+symbol menu. Before you alter anything (except text), detach the instance of the symbol so that you don’t change
+every instance. We've left more complex components, such as footers, as groups.
 
-Wherever appropriate, we have created type styles and layer styles to make these components more easily
-adapted.
+Wherever appropriate, we've created type styles and layer styles to make these components easier to adapt.
 
-Style and symbol names are a compromise between U.S. Web Design Standards CSS naming conventions (to
-transition Sketch files more easily into development) and names that make sense for when thinking about
-screen design. 
+Style and symbol names are a compromise between U.S. Web Design Standards CSS naming conventions (which allow us to
+transition Sketch files more easily into development) and names that make sense in the context of
+screen design.
+
+## Generating archive files
+
+To help with the distribution of these assets, the project uses `npm run`
+scripts to generate four types of zip archives. These zip archives are used in
+the `uswds` documentation website.
+
+Generating these files requires `node`, `npm`, and the `zip` command line tool.
+To get started, you need to install the dependencies for this project locally.
+
+```sh
+npm install
+```
+
+After you've installed these dependencies, generate the four zip archives for each
+supported release based on file extension: `omnigraffle`, `eps`, `ai`, & `sketch`.
+
+```sh
+npm release
+```
+
+### Testing the current supported file extensions
+
+To ensure the existence of all of the files necessary to generate a release,
+we've included some smoke tests in this project. Running the following command
+will run the smoke tests to verify that all necessary files for a release are in
+the project:
+
+```sh
+npm test
+```
 
 ## Licenses and attribution
 
