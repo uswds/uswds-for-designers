@@ -115,10 +115,11 @@ gulp.task('release:process', function () {
 
   var files = streamExtensions.map(function (extension) {
     var source = [
-      'Fonts\ and\ pairings/**/*.zip',
+      'Fonts/**/*.zip',
       '*.md',
       '**/*.pdf',
       // Ignore release process files
+      '!config/**/*',
       '!node_modules/**/*',
       '!.git/**/*',
       '!circle.yml',
