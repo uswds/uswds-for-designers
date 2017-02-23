@@ -1,6 +1,6 @@
 # U.S. Web Design Standards Design Assets
 
-This repository hosts editable, open source design files of the [U.S. Web Design Standards](https://standards.usa.gov) for government designers or anyone wishing to make use of the UI components or visual style guide in this site. The following file types are available for your use and can be found in the `Components` folder:
+This repository hosts editable, open source design files of the [U.S. Web Design Standards](https://standards.usa.gov) for government designers or anyone wishing to make use of the UI components or visual style guide in this site. The following file types are available for your use and can be found in their corresponding folders:
 
 ## Colors
 - Sketch color palette
