@@ -3,7 +3,7 @@ var dutil = require('./doc-util');
 var glob = require('glob');
 
 var streamExtensions = [
-  'omnigraffle.zip',
+  'Omnigraffle.zip',
   'eps',
   'ai',
   'ase',
