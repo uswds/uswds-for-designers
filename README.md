@@ -1,6 +1,6 @@
 # U.S. Web Design Standards Design Assets
 
-This repository hosts editable, open source design files of the [U.S. Web Design Standards](https://playbook.cio.gov/designstandards) for government designers or anyone wishing to make use of the UI components or visual style guide in this site.
+This repository hosts editable, open source design files of the [U.S. Web Design Standards](https://standards.usa.gov) for government designers or anyone wishing to make use of the UI components or visual style guide in this site.
 
 For the 1.0 release, the following file types are available for your use:
 - .AI (Adobe Illustrator)
