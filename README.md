@@ -2,13 +2,15 @@
 
 This repository hosts editable, open source design files of the [U.S. Web Design Standards](https://playbook.cio.gov/designstandards) for government designers or anyone wishing to make use of the UI components or visual style guide in this site.
 
-For the alpha release, the following file types are available for your use:
+For the 1.0 release, the following file types are available for your use:
 - .AI (Adobe Illustrator)
 - .EPS
 - Sketch
 - Omnigraffle
 - Font files (Fontawesome, Merriweather, and Source Sans Pro)
 - Color swatches
+
+Preview files have been made available for the Sketch, Omnigraffle, and EPS so you can see how each file is structured and it's content. 
 
 We encourage and solicit your input. Please leave any feedback in the project's primary repo, which you'll find here: https://github.com/18F/web-design-standards
 
@@ -27,6 +29,12 @@ You have a few options for working with our color palette: You can either use th
 * Begin by opening the Swatches panel.
 * In the Swatches menu, select Open Swatch Library and then Other Library.
 * Navigate to web-design-standards-colors.ase to add the palette.
+
+### For Omnigraffle
+* Unzip the file to access the Stencil file.
+* Open the stencil file and you'll be asked if you want to move it to your stencil folder.
+* Agree to move the stencil, then create a new Omnigraffle file.
+* The WDS stencils will be listed as an available library in your stencil panel.
 
 ## About the Sketch files
 
