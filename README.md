@@ -1,15 +1,22 @@
 # U.S. Web Design Standards Design Assets
 
-This repository hosts editable, open source design files of the [U.S. Web Design Standards](https://standards.usa.gov) for government designers or anyone wishing to make use of the UI components or visual style guide in this site. The following file types are available for your use:
+This repository hosts editable, open source design files of the [U.S. Web Design Standards](https://standards.usa.gov) for government designers or anyone wishing to make use of the UI components or visual style guide in this site. The following file types are available for your use and can be found in the `Components` folder:
 
+## Colors
+- Sketch color palette
+- Illustrator color palette
 
+## Components
+- Adobe Illustrator
+- Encapsulated PostScript (EPS)
+- Sketch
+- Omnigraffle
+- PDF
 
-- Adobe Illustrator - Components_sticker_sheet.ai
-- Encapsulated PostScript (EPS) - Components_sticker_sheet.eps
-- Sketch - Components_sticker_sheet.sketch
-- Omnigraffle - US_Web_Design_Standards_Omnigraffle.zip
-- Font files (Font Awesome, Merriweather, and Source Sans Pro)
-- Color swatches
+## Fonts
+- Font Awesome
+- Merriweather
+- Source Sans Pro
 
 Preview files have been made available for the Sketch, Omnigraffle, and EPS so you can see how each file is structured and it’s content. 
 
