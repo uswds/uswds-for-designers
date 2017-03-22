@@ -40,7 +40,7 @@ Here are a few guidelines to follow when submitting a pull request:
 [https://help.github.com/articles/fork-a-repo/](https://help.github.com/articles/fork-a-repo/)
 3. Create a branch that lightly defines what you're working on (e.g. add-styles).
 4. Once you're ready to submit a pull request, push your branch up to the repo.
-5. Submit your pull request against the `18f-pages-staging` branch.
+5. Submit your pull request against the `master` branch.
 
 Questions or need help with setup? Feel free to open an issue here [https://github.com/18F/web-design-standards/issues](https://github.com/18F/web-design-standards/issues).
 
