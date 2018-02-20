@@ -42,7 +42,7 @@ Here are a few guidelines to follow when submitting a pull request:
 4. Once you're ready to submit a pull request, push your branch up to the repo.
 5. Submit your pull request against the `master` branch.
 
-Questions or need help with setup? Feel free to open an issue here [https://github.com/18F/web-design-standards/issues](https://github.com/18F/web-design-standards/issues).
+Questions or need help with setup? Feel free to open an issue here https://github.com/uswds/uswds-assets/issues.
 
 ## Licenses and attribution
 
