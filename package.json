@@ -1,6 +1,6 @@
 {
   "name": "uswds-assets",
-  "description": "Draft U.S. Web Design Standards visual design assets",
+  "description": "U.S. Web Design System visual design assets",
   "main": "gulpfile.js",
   "private": true,
   "scripts": {
@@ -18,13 +18,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/18F/web-design-standards-assets.git"
+    "url": "git+https://github.com/uswds/uswds-assets.git"
   },
   "license": "CC0-1.0",
   "bugs": {
-    "url": "https://github.com/18F/web-design-standards-assets/issues"
+    "url": "https://github.com/uswds/uswds-assets/issues"
   },
-  "homepage": "https://github.com/18F/web-design-standards-assets#readme",
+  "homepage": "https://github.com/uswds/uswds-assets#readme",
   "devDependencies": {
     "cross-spawn": "^4.0.0",
     "del": "^2.2.1",

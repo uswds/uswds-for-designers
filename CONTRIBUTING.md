@@ -37,12 +37,12 @@ Here are a few guidelines to follow when submitting a pull request:
 
 1. Create a GitHub account or sign in to your existing account.
 2. Fork this repo into your GitHub account (or just clone it if you're an 18F team member). Read more about forking a repo here on GitHub:
-[https://help.github.com/articles/fork-a-repo/](https://help.github.com/articles/fork-a-repo/)
+https://help.github.com/articles/fork-a-repo/
 3. Create a branch that lightly defines what you're working on (e.g. add-styles).
 4. Once you're ready to submit a pull request, push your branch up to the repo.
 5. Submit your pull request against the `master` branch.
 
-Questions or need help with setup? Feel free to open an issue here [https://github.com/18F/web-design-standards/issues](https://github.com/18F/web-design-standards/issues).
+Questions or need help with setup? Feel free to open an issue here https://github.com/uswds/uswds-assets/issues.
 
 ## Licenses and attribution
 

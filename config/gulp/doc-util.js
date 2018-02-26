@@ -76,7 +76,7 @@ module.exports = {
 
   logIntroduction: function (message) {
 
-    message = message || 'Draft U.S. Web Design Standards Assets';
+    message = message || 'U.S. Web Design System Assets';
 
     gutil.log(
       gutil.colors.yellow(pkg.name),
