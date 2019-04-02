@@ -8,6 +8,8 @@ The Roboto Mono font files in `fonts/roboto-mono.zip` are from [Google Fonts](ht
 
 The Public Sans font files in `fonts/public-sans.zip` are licensed under the [SIL Open Font License](http://scripts.sil.org/cms/scripts/page.php?item_id=OFL). Public Sans is a modification of Libre Franklin, copyright [Impallari Type](www.impallari.com).
 
+The files in `fonts/font-awesome.zip` are from [Font Awesome](http://fontawesome.io/) by Dave Gandy under the [SIL Open Font License 1.1](http://scripts.sil.org/OFL).
+
 #### Full license text for the MIT licensed files:
 
 ```
