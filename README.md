@@ -16,9 +16,11 @@ This repository hosts editable, open source design files of the [U.S. Web Design
 ## Fonts
 - Font Awesome
 - Merriweather
+- Public Sans
+- Roboto Mono
 - Source Sans Pro
 
-Preview files have been made available for the Sketch, Omnigraffle, and EPS so you can see how each file is structured and it’s content. 
+Preview files have been made available for the Sketch, Omnigraffle, and EPS so you can see how each file is structured and it’s content.
 
 We encourage and solicit your input. Please leave any feedback in the project’s primary repo, which you’ll find here: https://github.com/uswds/uswds
 
