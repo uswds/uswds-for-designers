@@ -1,39 +1,24 @@
 {
   "name": "uswds-assets",
-  "description": "Draft U.S. Web Design Standards visual design assets",
+  "description": "USWDS visual and ux design assets",
   "main": "gulpfile.js",
   "private": true,
-  "scripts": {
-    "postinstall": "gulp",
-    "release": "gulp release",
-    "test": "gulp test:extensions"
-  },
   "author": "18F",
   "contributors": [
-    "Carolyn Dew <carolyn.dew@gsa.gov>",
-    "Erica Deahl <erica.deahl@gsa.gov>",
     "Maya Benari <maya.ben-ari@gsa.gov>",
+    "Erica Deahl <erica.deahl@gsa.gov>",
+    "Carolyn Dew <carolyn.dew@gsa.gov>",
     "Julia Elman <julia.elman@gsa.gov>",
-    "Roger Steve Ruiz <roger.ruiz@gsa.gov>"
+    "Roger Steve Ruiz <roger.ruiz@gsa.gov>",
+    "Dan O. Williams <daniel.williams@gsa.gov>"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/18F/web-design-standards-assets.git"
+    "url": "git+https://github.com/uswds/uswds-assets.git"
   },
   "license": "CC0-1.0",
   "bugs": {
-    "url": "https://github.com/18F/web-design-standards-assets/issues"
+    "url": "https://github.com/uswds/uswds-assets/issues"
   },
-  "homepage": "https://github.com/18F/web-design-standards-assets#readme",
-  "devDependencies": {
-    "cross-spawn": "^4.0.0",
-    "del": "^2.2.1",
-    "glob": "^7.0.5",
-    "gulp": "^3.9.1",
-    "gulp-rename": "^1.2.2",
-    "gulp-util": "^3.0.7",
-    "merge-stream": "^1.0.0",
-    "node-notifier": "^4.6.0",
-    "run-sequence": "^1.2.1"
-  }
+  "homepage": "https://github.com/uswds/uswds-assets#readme",
 }
