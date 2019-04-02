@@ -1,9 +1,7 @@
 {
   "name": "uswds-assets",
   "description": "USWDS visual and ux design assets",
-  "main": "gulpfile.js",
-  "private": true,
-  "author": "18F",
+  "author": "uswds",
   "contributors": [
     "Maya Benari <maya.ben-ari@gsa.gov>",
     "Erica Deahl <erica.deahl@gsa.gov>",
