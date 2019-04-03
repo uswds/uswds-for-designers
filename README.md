@@ -17,7 +17,7 @@ With the release of USWDS 2.0, we've made some major changes to the way our asse
 - USWDS Avatars (Beta)
 
 ### Sketch project file
-This package includes `sketch/project-files/uswds-sketch`: a stickersheet and project file synchronized to USWDS tokens.
+This package includes `sketch/project-files/project-uswds-sketch`: a stickersheet and project file synchronized to USWDS tokens.
 
 ### Demo files
 The files in `sketch/demo-files` are connected to examples, demos, and other tutorials.
@@ -41,7 +41,7 @@ Now the most recent versions of Font Awesome, Merriweather, Public Sans, Roboto 
 - Clone or download this repo using the green `Clone or download` button in the top-right of the `uswds-for-designers` repo. This will copy the repo files to your computer. If you downloaded the files, unzip the package and move the new files to an accessible spot on your computer.
 - Open Sketch > Preferences > Libraries
 - Select `Add Library...`
-- Select all the files in `sketch/libraries`. You can also add the files in `sketch/libraries/project-libraries`, but they are optional.
+- Select all the files in `sketch/libraries`. You can also add the files in `sketch/project-files/project-libraries`, but they are optional.
 
 Now, all the USWDS libraries are connected to your installation of Sketch, making their styles, symbols, and colors available.
 
