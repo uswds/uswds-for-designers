@@ -109,7 +109,7 @@ Once you have your new project theme colors, you can use the [Symbol Swapper](ht
 
 <img width="423" alt="agency-symbol-swap-1" src="https://user-images.githubusercontent.com/11464021/55428164-635e4800-553d-11e9-96cf-9d0f51ec70fa.png">
 
-- Sketch will prompt you to update symbols.
+Sketch will prompt you to update symbols.
 
 <img width="430" alt="agency-symbol-swap-2" src="https://user-images.githubusercontent.com/11464021/55428260-943e7d00-553d-11e9-80f0-f79f6f4889ec.png">
 
