@@ -2,31 +2,51 @@
 
 This repository hosts editable, open source [United States Web Design System](https://designsystem.digital.gov/) design files for government designers or anyone wishing to make use of the USWDS components or visual styles.
 
-With the release of USWDS 2.0, we've made some major changes to the way our assets are structured. **For now, these assets are only available as Sketch files for the Macintosh and as an Adobe XD file for other platforms** These files have been tested with Sketch 53-58 and Adobe XD 22.7.12.3.
+With the release of USWDS 2.0, we've made some major changes to the way our assets are structured. **For now, these assets are only available as Sketch files for the Macintosh and as an Adobe XD file for other platforms** These files have been tested with Sketch 53-64 and Adobe XD 22.7.12.3.
 
-:rocket: We encourage your input. Please leave any feedback as issues in this repo.
+We encourage your input. Please leave any feedback as issues in this repo.
+
+## :tulip: April 2020: New Sketch files
+
+In April 2020, we reased a new version of the USWDS Sketch files, along with USWDS 2.7.0. This new package makes a number of improvements:
+
+- Uses only a single library file: `uswds`
+- Adds all themeable token and component symbols to a simplified `uswds-project` file
+- Improves organization and navigation of USWDS components
+- Provides a starting point for more flexible and customizable components using `master` component building blocks
+
+**Note: This new version of the Sketch assets for designers replaces the older version and the two versions are not easily interoperable. You may find some quirks when trying to use the new libraries on existing USWDS projects.**
 
 ## Included design files
-### NEW: Adobe XD Components
+
+### Adobe XD Components
+
 - Components and theme colors in Adobe XD format (`adobe-xd/uswds-components`).
-- System color swatches coming soon
 
 ### Sketch Libraries
-- USWDS block: a layout and design helper tool synchronized to USWDS tokens
+
+The `sketch/librarires/uswds` library includes the following:
+
 - USWDS system colors
-- USWDS default theme colors
-- Customizable project theme colors
 - USWDS system typescale in Public Sans
-- USWDS handoff symbols (Beta)
-- USWDS Avatars (Beta)
+- USWDS avatars
+- USWDS block
+- USWDS icons
+- Helper elements like device frames
+- USWDS logos
+
+**Note: We have not yet implemented handoff symbols in the new Sketch files.**
 
 ### Sketch project file
-This package includes `sketch/project-files/project-uswds-sketch`: a stickersheet and project file synchronized to USWDS tokens.
 
-### Demo files
-The files in `sketch/demo-files` are connected to examples, demos, and other tutorials.
+This package includes `sketch/project-files/uswds-project`: a project file synchronized to USWDS tokens. This project file includes the following customizable elements:
+
+- USWDS theme colors as symbols and layer styles
+- USWDS components as symbols
+- USWDS layout grid artboards
 
 ### Fonts
+
 - Font Awesome
 - Merriweather
 - Public Sans
@@ -41,24 +61,26 @@ The files in `sketch/demo-files` are connected to examples, demos, and other tut
 Now the most recent versions of Font Awesome, Merriweather, Public Sans, Roboto Mono, and Source Sans Pro are installed and available to any program.
 
 ## Using Sketch assets
-### Before you start: Install the Sketch libraries
+
+### Before you start: Install the Sketch library
 
 - Clone or download this repo using the green `Clone or download` button in the top-right of the `uswds-for-designers` repo. This will copy the repo files to your computer. If you downloaded the files, unzip the package and move the new files to an accessible spot on your computer.
 - Open Sketch > Preferences > Libraries
 - Select `Add Library...`
-- Select all the files in `sketch/libraries`. You can also add the files in `sketch/project-files/project-libraries`, but they are optional.
+- Select `sketch/libraries/uswds`.
 
-Now, all the USWDS libraries are connected to your installation of Sketch, making their styles, symbols, and colors available.
+Now, the USWDS library is connected to your installation of Sketch, making its styles, symbols, and colors available.
 
-:warning: **Don't directly edit these library files.** All USWDS system and theme libraries are designed to keep your local files in sync with most current USWDS design tokens. Don't customize the library files — rather, use the shared libraries and styles to customize your project files. If you want to create specialized palettes for your project, use copies of the special `project-libraries` libraries, discussed below.
+:warning: **Don't directly edit the core USWDS library file.** All USWDS system and theme libraries are designed to keep your local files in sync with most current USWDS design tokens. Don't customize the library files — rather, use the styles and symbols in the to `uswds-project` file to customize your project.
 
-#### Updating USWDS libraries
-Occasionally, we'll make updates to these USWDS libraries and update our user with an email, a tweet, or a message to our public Slack. When you hear that there's a new release of our design assets, either pull that version from GitHub directly, or download the new assets with the provided link and replace the files manually. When you update the library files with a new USWDS release, Sketch will notify you that there are library updates in any affected files, and you can review and accept those updates. This process keeps your local files in sync with USWDS.
+#### Updating USWDS libary and project files
+
+Occasionally, we'll make updates to the core USWDS library or the USWDS project file and update our user with an email, a tweet, or a message to our public Slack. When you hear that there's a new release of our design assets, either pull that version from GitHub directly, or download the new assets with the provided link and replace the files manually. When you update the library files with a new USWDS release, Sketch will notify you that there are library updates in any affected files, and you can review and accept those updates. This process keeps your local files in sync with USWDS.
 
 ### Using USWDS Sketch assets
-Most of the documentation for the Sketch stickersheet is in the stickersheet file itself. The following are a couple tips to help you get started with the Sketch files.
 
 #### Update nudge settings
+
 USWDS 2.0 uses spacing units that are a multiples of 8px (with a few exceptions — read [more about USWDS spacing units](https://v2.designsystem.digital.gov/design-tokens/spacing-units/)). It's easy to tell Sketch to nudge in multiples of 8px. Open `preferences/canvas` and use `8` for the `Shift-Arrow` value.
 
 <img width="459" alt="sketch-nudge" src="https://user-images.githubusercontent.com/11464021/55423391-a666ee00-5532-11e9-94ec-15efd596ab7f.png">
@@ -66,60 +88,49 @@ USWDS 2.0 uses spacing units that are a multiples of 8px (with a few exceptions 
 Now, `shift-arrow` will nudge an element 8px.
 
 ### Start a new USWDS project
-#### Copy the USWDS project files
+
+#### Copy the USWDS project file
+
 Copy the `sketch/project-files` folder to a new folder outside the `uswds-for-designers` folder and rename it.
 
-> For the purposes of this example, we'll call our new project `Agency`.
+:warning: **If you leave the project file in the `uswds-for-designers` folder, it'll be overwritten if you ever grab updated files from GitHub and that's no fun.**
 
-##### Create project theme colors
-**1.** Rename the files in `agency/project-libraries` by replacing the `project-` prefix with something unique to your project.
+##### Customize project theme colors
 
-<img width="475" alt="agency-files" src="https://user-images.githubusercontent.com/11464021/55425266-de703000-5536-11e9-9f6b-de4981796a2d.png">
+**1.** Open a project file created from `uswds-project`.
 
-**2.** Open any of the project colors you'd like to modify.
+![A sample project](./screenshots/demo-project-before.png)
 
-<img width="1267" alt="agency-update-primary-1" src="https://user-images.githubusercontent.com/11464021/55425448-59d1e180-5537-11e9-9842-42166f311370.png">
+**2.** Navigate to the `Colors and symbols` layer and find the theme color table. (It's all the way over on the left of the page.)
 
-**3.** Select the swatch in any artboard and use the **Appearance** panel to select a new color from the USWDS system swatches.
+![Theme color tokens](./screenshots/uswds-theme-colors.png)
 
-<img width="1006" alt="agency-update-primary-2" src="https://user-images.githubusercontent.com/11464021/55425691-e67c9f80-5537-11e9-835c-e4558d6b12b1.png">
+**3.** Find the theme colors you want to change. In this example, we'll concentrate on the `primary` colors.
 
-**4.** Use the eyedropper (`control-c`) to copy your new color to the **Layer styles** swatch below.
+![Primary theme color tokens](./screenshots/primary-colors.png)
 
-<img width="1006" alt="agency-update-primary-3" src="https://user-images.githubusercontent.com/11464021/55425883-568b2580-5538-11e9-8a1a-8759fefeb229.png">
+**4.** For each color you want to change, first swap the color symbol in the artboard with the replacement color from the `uswds/colors/system` library. Here's we're swapping the `primary` default of `blue 60v` with `green-60v`.
 
-**5.** Then, under **Appearance**, select the style that needs updating and select `Update layer style` from the menu.
+![Primary theme color tokens](./screenshots/swap-primary-symbol.png)
 
-<img width="1006" alt="agency-update-primary-4" src="https://user-images.githubusercontent.com/11464021/55426031-a79b1980-5538-11e9-94ca-d0c4786ceace.png">
+**5.** Then, use the eyedropper (`control-c`) to copy your new color to the **Layer styles** swatch below.
 
-**6.** Use the same technique for all the swatches you'd like to modify.
+![Primary theme color tokens](./screenshots/eyedropper-layer-styles.png)
 
-<img width="1006" alt="agency-update-primary-5" src="https://user-images.githubusercontent.com/11464021/55426254-2b550600-5539-11e9-95c8-af89cb1d7bac.png">
+**5.** Finally, under **Appearance**, select `Update layer style` from the menu.
 
-**7.** Add your updated library to Sketch with `Sketch Preferences > Libraries > Add Library...`.
+![Primary theme color tokens](./screenshots/update-layer-style.png)
 
-<img width="517" alt="agency-add-primary-6" src="https://user-images.githubusercontent.com/11464021/55426458-b2a27980-5539-11e9-8273-fe4628abf812.png">
+**5.** Repeat for all theme colors you want to modify. (Here we updated all the `primary` theme tokens with `green` system tokens.)
 
-The new colors are now available just like any of other USWDS color token. Use them with layer styles or with **USWDS Block**.
+![Primary theme color tokens](./screenshots/update-all-tokens.png)
 
-<img width="1006" alt="agency-update-primary-7" src="https://user-images.githubusercontent.com/11464021/55427728-7c1a2e00-553c-11e9-86fa-ab9b790292ec.png">
+**5.** When you return to your designs, the colors will be updated to their new values.
 
-#### Symbol swapping
-Once you have your new project theme colors, you can use the [Symbol Swapper](https://github.com/sonburn/symbol-swapper) plugin to replace instances of the default theme colors with your new project theme colors.
+![Primary theme color tokens](./screenshots/demo-updated-colors.png)
 
-- Download and install Symbol Swapper using the instuctions [here](https://github.com/sonburn/symbol-swapper). (Or install via [Sketch Runner](https://sketchrunner.com/)).
-- Open `plugins > Symbol Swapper > Symbol Swap Libraries`
-- Select the color library you want to replace. (In this example, it's `uswds-theme-color-primary`.)
-- In the dropdown, select the library you want as a replacement. (In this example, it's `agency-color-theme-primary`.)
+**Note: Colored text uses neither USWDS token symbols or layer styles. It will not automatically update, and will need a manual update or to be connected to a Text style.**
 
-<img width="423" alt="agency-symbol-swap-1" src="https://user-images.githubusercontent.com/11464021/55428164-635e4800-553d-11e9-96cf-9d0f51ec70fa.png">
+![Primary theme color tokens](./screenshots/text-doesnt-update.png)
 
-Sketch will prompt you to update symbols.
-
-<img width="430" alt="agency-symbol-swap-2" src="https://user-images.githubusercontent.com/11464021/55428260-943e7d00-553d-11e9-80f0-f79f6f4889ec.png">
-
-After updating, the stickersheet symbols now uses your project colors. :tada:
-
-<img width="1006" alt="agency-symbol-swap-3" src="https://user-images.githubusercontent.com/11464021/55428402-debff980-553d-11e9-8439-497a4226c2a6.png">
-
-> **Note:** This only works with symbols and designs created with **USWDS Block**. Symbol swapper will not update layer styles and it cannot update colored text.
+And that's it!
