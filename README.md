@@ -39,7 +39,7 @@ The `sketch/librarires/uswds` library includes the following:
 
 ### Sketch project file
 
-This package includes `sketch/project-files/uswds-project`: a project file synchronized to USWDS tokens. This project file includes the following customizable elements:
+This package includes `sketch/uswds-project`: a project file synchronized to USWDS tokens. This project file includes the following customizable elements:
 
 - USWDS theme colors as symbols and layer styles
 - USWDS components as symbols
@@ -91,7 +91,7 @@ Now, `shift-arrow` will nudge an element 8px.
 
 #### Copy the USWDS project file
 
-Copy the `sketch/project-files` folder to a new folder outside the `uswds-for-designers` folder and rename it.
+Copy the `sketch/uswds-project` file to a new location outside the `uswds-for-designers` folder and rename it.
 
 :warning: **If you leave the project file in the `uswds-for-designers` folder, it'll be overwritten if you ever grab updated files from GitHub and that's no fun.**
 
