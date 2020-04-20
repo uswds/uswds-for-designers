@@ -8,7 +8,7 @@ We encourage your input. Please leave any feedback as issues in this repo.
 
 ## :tulip: April 2020: New Sketch files
 
-In April 2020, we reased a new version of the USWDS Sketch files, along with USWDS 2.7.0. This new package makes a number of improvements:
+In April 2020, we released a new version of the USWDS Sketch files, along with USWDS 2.7.0. This new package makes a number of improvements:
 
 - Uses only a single library file: `uswds`
 - Adds all themeable token and component symbols to a simplified `uswds-project` file
@@ -56,7 +56,7 @@ This package includes `sketch/uswds-project`: a project file synchronized to USW
 ## Before you start: Install the fonts
 
 - Unzip the zipped packages in `fonts`.
-- Add all the unzipped files (`.ttf` and `.otf` files) to your system by dragging them into the **Font Book** application. If you have older versions of these fonts, you may want to diasable them in Font Book first.
+- Add all the unzipped files (`.ttf` and `.otf` files) to your system by dragging them into the **Font Book** application. If you have older versions of these fonts, you may want to disable them in Font Book first.
 
 Now the most recent versions of Font Awesome, Merriweather, Public Sans, Roboto Mono, and Source Sans Pro are installed and available to any program.
 
