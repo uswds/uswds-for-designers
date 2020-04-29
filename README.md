@@ -6,6 +6,9 @@ With the release of USWDS 2.0, we've made some major changes to the way our asse
 
 We encourage your input. Please leave any feedback as issues in this repo.
 
+**Note:** The USWDS team cannot support Figma yet, but there are Figma design assets developed by the USWDS community. [Read more about these Figma assets](https://truss.works/blog/uswds-figma-library) or [view the Figma component library directly](https://www.figma.com/community/file/836611771720754351).
+
+
 ## :tulip: April 2020: New Sketch files
 
 In April 2020, we reased a new version of the USWDS Sketch files, along with USWDS 2.7.0. This new package makes a number of improvements:
