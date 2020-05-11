@@ -10,7 +10,7 @@ We encourage your input. Please leave any feedback as issues in this repo.
 
 ## :beetle: May 2020: Added new components
 
-In May 2020, we added the Button group, Card, and Combo box to the assets.
+In May 2020, we added the `Button group`, `Card`, `Character count`, and `Combo box` components to the assets.
 
 ## :tulip: April 2020: New Sketch files
 
