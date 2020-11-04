@@ -2,11 +2,15 @@
 
 This repository hosts editable, open source [United States Web Design System](https://designsystem.digital.gov/) design files for government designers or anyone wishing to make use of the USWDS components or visual styles.
 
-With the release of USWDS 2.0, we've made some major changes to the way our assets are structured. **For now, these assets are only available as Sketch files for the Macintosh and as an Adobe XD file for other platforms** These files have been tested with Sketch 66 and Adobe XD 30.2.12.3.
+With the release of USWDS 2.0, we've made some major changes to the way our assets are structured. **For now, these assets are only available as Sketch files for the Macintosh and as an Adobe XD file for other platforms** These files have been tested with Sketch 69 and Adobe XD 34.0.12.33.
 
 We encourage your input. Please leave any feedback as issues in this repo.
 
 **Note:** The USWDS team cannot support Figma yet, but there are Figma design assets developed by the USWDS community. [Read more about these Figma assets](https://truss.works/blog/uswds-figma-library) or [view the Figma component library directly](https://www.figma.com/community/file/836611771720754351).
+
+## :fallen_leaf: November 2020: New components (USWDS 2.9.0) and color variables
+
+In November 2020, we added the `Identifier`, `Step indicator`, and `Time picker` components to the assets. We also added Sketch color variable support for all USWDS system and theme color tokens.
 
 ## :sun_with_face: July 2020: Moved to `main` branch as our GitHub default
 
