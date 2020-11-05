@@ -2,11 +2,15 @@
 
 This repository hosts editable, open source [United States Web Design System](https://designsystem.digital.gov/) design files for government designers or anyone wishing to make use of the USWDS components or visual styles.
 
-With the release of USWDS 2.0, we've made some major changes to the way our assets are structured. **For now, these assets are only available as Sketch files for the Macintosh and as an Adobe XD file for other platforms** These files have been tested with Sketch 66 and Adobe XD 30.2.12.3.
+With the release of USWDS 2.0, we've made some major changes to the way our assets are structured. **For now, these assets are only available as Sketch files for the Macintosh and as an Adobe XD file for other platforms** These files have been tested with Sketch 69 and Adobe XD 34.0.12.33.
 
 We encourage your input. Please leave any feedback as issues in this repo.
 
 **Note:** The USWDS team cannot support Figma yet, but there are Figma design assets developed by the USWDS community. [Read more about these Figma assets](https://truss.works/blog/uswds-figma-library) or [view the Figma component library directly](https://www.figma.com/community/file/836611771720754351).
+
+## :fallen_leaf: November 2020: New components (USWDS 2.9.0) and color variables
+
+In November 2020, we added the `Identifier`, `Step indicator`, and `Time picker` components to the assets. We also added Sketch color variable support for all USWDS system and theme color tokens.
 
 ## :sun_with_face: July 2020: Moved to `main` branch as our GitHub default
 
@@ -127,9 +131,11 @@ Copy the `sketch/uswds-project` file to a new location outside the `uswds-for-de
 
 ![Primary theme color tokens](./screenshots/swap-primary-symbol.png)
 
-**5.** Then, use the eyedropper (`control-c`) to copy your new color to the **Layer styles** swatch below.
+**5.** Then, we'll update both the **layer style** and the **color variable**. Select the layer style swatch and open the fill color picker. Select `Edit Variable` then eyedropper the color you just set in the symbol swatch. Then select `Update`.
 
-![Primary theme color tokens](./screenshots/eyedropper-layer-styles.png)
+![Edit the color variable](./screenshots/edit-color-variable.png)
+
+![Update the color variable](./screenshots/update-color-variable.png)
 
 **5.** Finally, under **Appearance**, select `Update layer style` from the menu.
 
@@ -143,8 +149,6 @@ Copy the `sketch/uswds-project` file to a new location outside the `uswds-for-de
 
 ![Primary theme color tokens](./screenshots/demo-updated-colors.png)
 
-**Note: Colored text uses neither USWDS token symbols or layer styles. It will not automatically update, and will need a manual update or to be connected to a Text style.**
-
-![Primary theme color tokens](./screenshots/text-doesnt-update.png)
+**Note: As of the most recent assets update, colored text uses Sketch color variables and should update when you update the variable.**
 
 And that's it!
