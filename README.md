@@ -131,9 +131,11 @@ Copy the `sketch/uswds-project` file to a new location outside the `uswds-for-de
 
 ![Primary theme color tokens](./screenshots/swap-primary-symbol.png)
 
-**5.** Then, use the eyedropper (`control-c`) to copy your new color to the **Layer styles** swatch below.
+**5.** Then, we'll update both the **layer style** and the **color variable**. Select the layer style swatch and open the fill color picker. Select `Edit Variable` then eyedropper the color you just set in the symbol swatch. Then select `Update`.
 
-![Primary theme color tokens](./screenshots/eyedropper-layer-styles.png)
+![Edit the color variable](./screenshots/edit-color-variable.png)
+
+![Update the color variable](./screenshots/update-color-variable.png)
 
 **5.** Finally, under **Appearance**, select `Update layer style` from the menu.
 
@@ -147,8 +149,6 @@ Copy the `sketch/uswds-project` file to a new location outside the `uswds-for-de
 
 ![Primary theme color tokens](./screenshots/demo-updated-colors.png)
 
-**Note: Colored text uses neither USWDS token symbols or layer styles. It will not automatically update, and will need a manual update or to be connected to a Text style.**
-
-![Primary theme color tokens](./screenshots/text-doesnt-update.png)
+**Note: As of the most recent assets update, colored text uses Sketch color variables and should update when you update the variable.**
 
 And that's it!
