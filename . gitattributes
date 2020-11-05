@@ -1,0 +1,8 @@
+*.sketch binary
+*.sketchpalette binary
+*.eps binary
+*.ai binary
+*.zip binary
+*.xd binary
+*.png diff=exif
+*.jpg diff=exif
