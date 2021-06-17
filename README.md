@@ -2,15 +2,19 @@
 
 This repository hosts editable, open source [United States Web Design System](https://designsystem.digital.gov/) design files for government designers or anyone wishing to make use of the USWDS components or visual styles.
 
-With the release of USWDS 2.0, we've made some major changes to the way our assets are structured. **For now, these assets are only available as Sketch files for the Macintosh and as an Adobe XD file for other platforms** These files have been tested with **Sketch 71.2** and **Adobe XD 39.0.12.12**.
+With the release of USWDS 2.0, we've made some major changes to the way our assets are structured. **For now, these assets are only available as Sketch files for the Macintosh and as an Adobe XD file for other platforms** These files have been tested with **Sketch 72.4** and **Adobe XD 41.0.12.11**.
 
 We encourage your input. Please leave any feedback as issues in this repo.
 
 **Note:** The USWDS is investigating Figma support. In the meantime there are Figma design assets developed by the USWDS community. [Read more about these Figma assets](https://truss.works/blog/uswds-figma-library) or [view the Figma component library directly](https://www.figma.com/community/file/836611771720754351).
 
-## :icecream: April 2020: New components and templates (USWDS 2.11.0)
+## :cherries: June 2021: New components and templates (USWDS 2.12.0)
 
-In April 2020, we added the following components and templates:
+In June 2021, we added the `Pagination` component
+
+## :icecream: April 2021: New components and templates (USWDS 2.11.0)
+
+In April 2021, we added the following components and templates:
 
 - `404 Page Template`
 - `Authentication page templates`
