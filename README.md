@@ -8,7 +8,7 @@ We encourage your input. Please leave any feedback as issues in this repo.
 
 **Note:** The USWDS is investigating Figma support. In the meantime there are Figma design assets developed by the USWDS community. [Read more about these Figma assets](https://truss.works/blog/uswds-figma-library) or [view the Figma component library directly](https://www.figma.com/community/file/836611771720754351).
 
-## :snowflake: January 2023: New components and icons (USWDS 3.3.0)
+## :orange: January 2023: New components and icons (USWDS 3.3.0)
 
 In January 2023, we added the `In-Page Navigation` and `Language selection` component. We also updated the social media icons. 
 
