@@ -10,7 +10,7 @@ We encourage your input. Please leave any feedback as issues in this repo.
 
 ## :orange: January 2023: New components and icons (USWDS 3.3.0)
 
-In January 2023, we added the `In-Page Navigation` and `Language selection` components. We also updated the social media icons. 
+In January 2023, we added the `In-Page Navigation` and `Language selection` components. We also updated the social media icons, removed unused fonts, and updated the version of Public Sans to its current version (2.001). 
 
 ## :cherries: June 2021: New component (USWDS 2.12.0)
 
