@@ -2,7 +2,7 @@
 
 This repository hosts editable, open source [United States Web Design System](https://designsystem.digital.gov/) design files for government designers or anyone wishing to make use of the USWDS components or visual styles.
 
-With the release of USWDS 2.0, we've made some major changes to the way our assets are structured. **For now, these assets are only available as Sketch files for the Macintosh and as an Adobe XD file for other platforms** These files have been tested with **Sketch 95.1** and **Adobe XD 56.0.12.6**.
+With the release of USWDS 2.0, we've made some major changes to the way our assets are structured. **For now, these assets are only available as Sketch files for the Macintosh and as an Adobe XD file for other platforms**. These files have been tested with **Sketch 95.1** and **Adobe XD 56.0.12.6**. Please note that Adobe XD is no longer supported by Adobe and we are therefore discontinuing updates.
 
 We encourage your input. Please leave any feedback as issues in this repo.
 
