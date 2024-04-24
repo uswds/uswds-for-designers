@@ -1,12 +1,12 @@
 # USWDS for designers
 
-This repository hosts editable, open source [United States Web Design System](https://designsystem.digital.gov/) design files for government designers or anyone wishing to make use of the USWDS components or visual styles.
+This repository hosts editable, open source [United States Web Design System](https://designsystem.digital.gov/) design files for government designers or anyone wishing to use USWDS components or visual styles.
 
-With the release of USWDS 2.0, we've made some major changes to the way our assets are structured. **For now, these assets are only available as Sketch files for the Macintosh and as an Adobe XD file for other platforms**. These files have been tested with **Sketch 95.1** and **Adobe XD 56.0.12.6**. Please note that Adobe XD is no longer supported by Adobe and we are therefore discontinuing updates.
+With the release of USWDS 2.0, we've made some major changes to the way our assets are structured. **For now, these assets are only available as Sketch files for the Macintosh and as an Adobe XD file for other platforms**. These files have been tested with **Sketch 95.1** and **Adobe XD 56.0.12.6**. Unfortunately, Adobe XD is no longer supported by Adobe, so we won't be making any further updates to this file.
 
-We encourage your input. Please leave any feedback as issues in this repo.
+We're interested to hear how these work for you — you can provide feedback by opening an issue in this repo.
 
-**Note:** The USWDS is investigating Figma support. In the meantime there are Figma design assets developed by the USWDS community. [Read more about these Figma assets](https://truss.works/blog/uswds-figma-library) or [view the Figma component library directly](https://www.figma.com/community/file/836611771720754351).
+**Note:** The USWDS is investigating Figma support. In the meantime, Figma design assets have been developed by the USWDS community. [Read more about these Figma assets](https://truss.works/blog/uswds-figma-library) or [view the Figma component library directly](https://www.figma.com/community/file/836611771720754351).
 
 ## :orange: January 2023: New components and icons (USWDS 3.3.0)
 
