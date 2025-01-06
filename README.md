@@ -8,7 +8,7 @@ We're interested to hear how our design kits work for you — you can provide fe
 
 ## :coffee: January 2025: USWDS design kit for Figma beta 0.3 (USWDS 3.11.0)
 
-In November 2024 we launched the USWDS design kit for Figma as a beta on the Figma community. In January 2025, we added a direct download in this repo, available as a `.fig` file. We expect to update this design kit monthly for at least the next 6 months. Look for updates both in this repo and via the Figma community. It can be simpler, if possible, to [get the design kit directly from Figma](https://www.figma.com/community/file/1440921849343185329/uswds-design-kit-beta).
+In November 2024 we launched the USWDS design kit for Figma as a beta on the Figma community site. In January 2025, we added a direct download in this repo, available as a `.fig` file. We expect to update this design kit monthly for at least the next six months. Look for updates both in this repo and via the Figma community. It can be simpler, if possible, to [get the design kit directly from Figma](https://www.figma.com/community/file/1440921849343185329/uswds-design-kit-beta).
 
 The USWDS design kit for Figma contains 42 USWDS components built with USWDS design tokens, using variables and smart layouts. Report bugs or request features at this repo, or send us an email at uswds@gsa.gov.
 
