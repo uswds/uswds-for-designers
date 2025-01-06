@@ -2,15 +2,21 @@
 
 This repository hosts editable, open source [United States Web Design System](https://designsystem.digital.gov/) design files for government designers or anyone wishing to use USWDS components or visual styles.
 
-With the release of USWDS 2.0, we've made some major changes to the way our assets are structured. **For now, these assets are only available as Sketch files for the Macintosh and as an Adobe XD file for other platforms**. These files have been tested with **Sketch 95.1** and **Adobe XD 56.0.12.6**. Unfortunately, Adobe XD is no longer supported by Adobe, so we won't be making any further updates to this file.
+Our design kits are available in Adobe XD, Figma, and Sketch formats. Of these formats, the USWDS design kit for Figma is the most up-to-date. Unfortunately, Adobe XD is no longer supported by Adobe, so we won't be making further updates to this file.
 
-We're interested to hear how these work for you — you can provide feedback by opening an issue in this repo.
+We're interested to hear how our design kits work for you — you can provide feedback by opening an issue in this repo.
 
-**Note:** The USWDS is investigating Figma support. In the meantime, Figma design assets have been developed by the USWDS community. [Read more about these Figma assets](https://truss.works/blog/uswds-figma-library) or [view the Figma component library directly](https://www.figma.com/community/file/836611771720754351).
+## :coffee: January 2025: USWDS design kit for Figma beta 0.3 (USWDS 3.11.0)
+
+In November 2024 we launched the USWDS design kit for Figma as a beta on the Figma community. In January 2025, we added a direct download in this repo, available as a `.fig` file. We expect to update this design kit monthly for at least the next 6 months. Look for updates both in this repo and via the Figma community. It can be simpler, if possible, to [get the design kit directly from Figma](https://www.figma.com/community/file/1440921849343185329/uswds-design-kit-beta).
+
+The USWDS design kit for Figma contains 42 USWDS components built with USWDS design tokens, using variables and smart layouts. Report bugs or request features at this repo, or send us an email at uswds@gsa.gov.
+
+Documentation and complete changelog included in the kit.
 
 ## :orange: January 2023: New components and icons (USWDS 3.3.0)
 
-In January 2023, we added the `In-Page Navigation` and `Language selection` components. We also updated the social media icons, removed unused fonts, and updated the version of Public Sans to its current version (2.001). 
+In January 2023, we added the `In-Page Navigation` and `Language selection` components. We also updated the social media icons, removed unused fonts, and updated the version of Public Sans to its current version (2.001).
 
 ## :cherries: June 2021: New component (USWDS 2.12.0)
 
@@ -68,6 +74,15 @@ In April 2020, we released a new version of the USWDS Sketch files, along with U
 ### Adobe XD Components
 
 - Components and theme colors in Adobe XD format (`adobe-xd/uswds-components`).
+
+### Figma file
+
+Everything is in the single `figma/uswds-design-kit-beta.fig` file.
+
+- All design system components
+- All tokens as Figma variables
+- Font customization options
+- Smart layouts on all components
 
 ### Sketch Libraries
 

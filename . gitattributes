@@ -1,3 +1,4 @@
+*.fig binary
 *.sketch binary
 *.sketchpalette binary
 *.eps binary
