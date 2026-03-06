@@ -10,7 +10,7 @@ We're interested to hear how our design kits work for you — you can provide fe
 
 At the time of this update in March 2026, USWDS has a total staff of one (Anne Petersen, hi :wave:), and I don't expect I'll be able to prioritize updates to these USWDS design files in the foreseeable future. However, USWDS is open source, and I'd welcome improvement contributions. Please send 'em if you've got 'em! 
 
-You can find past updates, including [Figma kit details](https://github.com/uswds/uswds-for-designers/?tab=readme-ov-file#coffee-january-2025-uswds-design-kit-for-figma-beta-03-uswds-3110), below in History / changelog
+You can find past updates, including [Figma kit details](https://github.com/uswds/uswds-for-designers/?tab=readme-ov-file#coffee-january-2025-uswds-design-kit-for-figma-beta-03-uswds-3110), below in [History / changelog](https://github.com/uswds/uswds-for-designers?tab=readme-ov-file#open_book-history--changelog)
 
 ## Included design files
 
