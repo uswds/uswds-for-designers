@@ -6,9 +6,9 @@ Our design kits are available in Figma, Sketch, and Adobe XD formats. Of these f
 
 We're interested to hear how our design kits work for you — you can provide feedback by opening an issue in this repo.
 
-## :newspaper_roll: March 2026: nothing new but _news_, you might say
+## Contribute and stay involved
 
-At the time of this update in March 2026, USWDS has a total staff of one (Anne Petersen, hi :wave:), and I don't expect I'll be able to prioritize updates to these USWDS design files in the foreseeable future. However, USWDS is open source, and I'd welcome improvement contributions. Please send 'em if you've got 'em! 
+USWDS design files are open source, and improvement contributions are welcome. Read our [contributing guidelines](CONTRIBUTING.md), open an issue in this repository to report a problem, or join [USWDS GitHub Discussions](https://github.com/uswds/uswds/discussions) to ask questions and share ideas.
 
 You can find past updates, including [Figma kit details](https://github.com/uswds/uswds-for-designers/?tab=readme-ov-file#coffee-january-2025-uswds-design-kit-for-figma-beta-03-uswds-3110), below in [History / changelog](https://github.com/uswds/uswds-for-designers?tab=readme-ov-file#open_book-history--changelog)
 
@@ -80,7 +80,7 @@ Now the USWDS library is connected to your installation of Sketch, making its st
 
 #### Updating USWDS library and project files
 
-Occasionally, we'll make updates to the core USWDS library or the USWDS project file and update our community with an email, a tweet, or a message to our public Slack. When you hear that there's a new release of our design assets, either pull that version from GitHub directly, or download the new assets with the provided link and replace the files manually. When you update the library files with a new USWDS release, Sketch will notify you that there are library updates in any affected files, and you can review and accept those updates. This process keeps your local files in sync with USWDS.
+Follow this repository for design asset updates and join [USWDS GitHub Discussions](https://github.com/uswds/uswds/discussions) for community news and questions. When you hear that there's a new release of our design assets, either pull that version from GitHub directly, or download the new assets with the provided link and replace the files manually. When you update the library files with a new USWDS release, Sketch will notify you that there are library updates in any affected files, and you can review and accept those updates. This process keeps your local files in sync with USWDS.
 
 ### Using USWDS Sketch assets
 
